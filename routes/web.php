@@ -32,3 +32,11 @@ Route::get('/fruit', function () {
 Route::get('/bootstrap', function () {
     return Inertia::render('BootstrapContent');
 })->name('bootstrap');
+
+Route::get('/state', function () {
+    return Inertia::render('state');
+})->name('state');
+
+Route::get('/movie', function () {
+    return Inertia::render('movie');
+})->name('movie');
